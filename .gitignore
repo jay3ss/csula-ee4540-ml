@@ -250,3 +250,9 @@ sccprj/
 
 # Octave session info
 octave-workspace
+
+# ignore vim swp files
+*.swp
+
+# ignore temp files
+*~
