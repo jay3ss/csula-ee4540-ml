@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{csquotes}
+
+\title{Machine Learning - Probability Review}
+\author{Joshua Saunders}
+\date{January 2018}
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\textbf{Note:} add diagram from notes.
+
+All $a_i$ are \textit{disjoint} and \textit{exhaustive} and $b_j$ is an event.
+
+\subsection{Total Probability}
+
+The \textit{total probability}, $P(b_j)$ is defined as
+
+\begin{equation} \label{eq:total_prob}
+    P(b_j) \, = \sum_{i}^{n} \, P(A, \, B)  
+\end{equation}
+
+
+\noindent
+where there are $n$ events, $b_j$ is an event, and $P(A, \, B)$ is the 
+probability of the intersection of $A$ and $B$.
+
+
+\subsection{Conditional Probability}
+
+In English, a conditional probability takes on a form similar to 
+
+\begin{displayquote}
+The probability of $A$ \textit{given} $B$...
+\end{displayquote}
+
+\noindent
+The mathematical equivalent of the above statement is
+
+\begin{equation}
+    P(A \, | \, B) \, = \, \ldots \nonumber
+\end{equation}
+
+\noindent
+and the full mathematical formula for conditional probability is
+
+\begin{equation} \label{eq:cond_prob}
+    P(A \, | \, B) \, = \frac{P(A, \, B)}{P(B)}
+\end{equation}
+
+\noindent
+The intuition behind (\ref{eq:cond_prob}) is quite simple. Bonilla states
+that it is simply a way to change from the universe of all possibilities ($U$)
+to that in which the events $A$ and $B$ intersect \cite{oscarbonilla}. This
+lets us ask
+
+\begin{quote}
+    What is the probability of $A$ occured \textit{given} that $B$ also occured.
+\end{quote}
+
+\subsection{Bayes' Theory}
+
+
+\begin{align}
+    P(A \, | \, B) &= \frac{P(A \, , B)}{P(B)}
+\end{align}
+
+
+\bibliography{bib}
+\bibliographystyle{ieeetr}
+
+\end{document}
