@@ -1,33 +1,19 @@
-clear all;
-close all;
+%% Gradient descent test 
+% Josh saunders
 
-N1 = 100;
-N2 = 100;
+%clear all
+%close all
 
-a1 = 1:N1;
-a2 = 1:N2;
+M = 2;
 
-[A1, A2] = meshgrid(a1, a2);
-c1 = 43.5;
-c2 = 66.2;
+X = [1 2;
+     3 4];
+C = [1; 2];
 
-F = (A1 - c1).^2 + (A2 - c2).^2;
+% Stopping parameter
+epsilon = 0.0000001;
 
-step_size = 0.1; % gamma
-stopping_criteria = 0.01; % epsilon
+% Step size
+gamma = 0.0005;
 
-% min = zeros(100);
-f = [(a1 - c1).^2; (a2 - c2).^2];
-gradient_f = 2*[a1 - c1;  a2  - c2];
-
-x = [a1; a2];
-
-y = gradient(f, c1, c2, x, step_size, stopping_criteria);
-
-
-
-
-
-
-
-
+[minimum, steps] = gradient(X, C, epsilon, gamma, 2)
