@@ -1,0 +1,582 @@
+# Created by Octave 4.2.1, Thu Feb 15 19:42:51 2018 PST <jose-chung@jose--chung>
+# name: uprds_names
+# type: cell
+# rows: 82
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 36
+Parkinsons Telemonitoring Data Set  
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 59
+Abstract: Oxford Parkinson's Disease Telemonitoring Dataset
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 60
+============================================================
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 39
+Data Set Characteristics:  Multivariate
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 41
+Attribute Characteristics:  Integer, Real
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 29
+Associated Tasks:  Regression
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 26
+Number of Instances:  5875
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 25
+Number of Attributes:  26
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 11
+Area:  Life
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 25
+Date Donated:  2009-10-29
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 60
+============================================================
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 7
+SOURCE:
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 76
+The dataset was created by Athanasios Tsanas (tsanasthanasis '@' gmail.com) 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 78
+and Max Little (littlem '@' physics.ox.ac.uk) of the University of Oxford, in 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 74
+collaboration with 10 medical centers in the US and Intel Corporation who 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 70
+developed the telemonitoring device to record the speech signals. The 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 74
+original study used a range of linear and nonlinear regression methods to 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 77
+predict the clinician's Parkinson's disease symptom score on the UPDRS scale.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 60
+============================================================
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 21
+DATA SET INFORMATION:
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 77
+This dataset is composed of a range of biomedical voice measurements from 42 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 78
+people with early-stage Parkinson's disease recruited to a six-month trial of 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 71
+a telemonitoring device for remote symptom progression monitoring. The 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 62
+recordings were automatically captured in the patient's homes.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 74
+Columns in the table contain subject number, subject age, subject gender, 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 76
+time interval from baseline recruitment date, motor UPDRS, total UPDRS, and 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 73
+16 biomedical voice measures. Each row corresponds to one of 5,875 voice 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 77
+recording from these individuals. The main aim of the data is to predict the 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 75
+motor and total UPDRS scores ('motor_UPDRS' and 'total_UPDRS') from the 16 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 15
+voice measures.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 78
+The data is in ASCII CSV format. The rows of the CSV file contain an instance 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 74
+corresponding to one voice recording. There are around 200 recordings per 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 78
+patient, the subject number of the patient is identified in the first column. 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 74
+For further information or to pass on comments, please contact Athanasios 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 65
+Tsanas (tsanasthanasis '@' gmail.com) or Max Little (littlem '@' 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 18
+physics.ox.ac.uk).
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 76
+Further details are contained in the following reference -- if you use this 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 21
+dataset, please cite:
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 80
+Athanasios Tsanas, Max A. Little, Patrick E. McSharry, Lorraine O. Ramig (2009),
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 76
+'Accurate telemonitoring of Parkinson.s disease progression by non-invasive 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 14
+speech tests',
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 56
+IEEE Transactions on Biomedical Engineering (to appear).
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 68
+Further details about the biomedical voice measures can be found in:
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 77
+Max A. Little, Patrick E. McSharry, Eric J. Hunter, Lorraine O. Ramig (2009),
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 73
+'Suitability of dysphonia measurements for telemonitoring of Parkinson's 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 9
+disease',
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 61
+IEEE Transactions on Biomedical Engineering, 56(4):1015-1022 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1
+ 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 59
+===========================================================
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 22
+ATTRIBUTE INFORMATION:
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 56
+subject# - Integer that uniquely identifies each subject
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 17
+age - Subject age
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 45
+sex - Subject gender '0' - male, '1' - female
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 75
+test_time - Time since recruitment into the trial. The integer part is the 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 33
+number of days since recruitment.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 66
+motor_UPDRS - Clinician's motor UPDRS score, linearly interpolated
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 66
+total_UPDRS - Clinician's total UPDRS score, linearly interpolated
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 78
+Jitter(%),Jitter(Abs),Jitter:RAP,Jitter:PPQ5,Jitter:DDP - Several measures of 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 34
+variation in fundamental frequency
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 74
+Shimmer,Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,Shimmer:APQ11,Shimmer:DDA - 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 42
+Several measures of variation in amplitude
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 73
+NHR,HNR - Two measures of ratio of noise to tonal components in the voice
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 47
+RPDE - A nonlinear dynamical complexity measure
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 37
+DFA - Signal fractal scaling exponent
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 61
+PPE - A nonlinear measure of fundamental frequency variation 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 59
+===========================================================
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 16
+RELEVANT PAPERS:
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 51
+Little MA, McSharry PE, Hunter EJ, Ramig LO (2009),
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 73
+'Suitability of dysphonia measurements for telemonitoring of Parkinson's 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 9
+disease',
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 60
+IEEE Transactions on Biomedical Engineering, 56(4):1015-1022
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 59
+Little MA, McSharry PE, Roberts SJ, Costello DAE, Moroz IM.
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 74
+'Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 20
+Disorder Detection',
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 56
+BioMedical Engineering OnLine 2007, 6:23 (26 June 2007) 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 59
+===========================================================
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 17
+CITATION REQUEST:
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 57
+If you use this dataset, please cite the following paper:
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 49
+A Tsanas, MA Little, PE McSharry, LO Ramig (2009)
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 76
+'Accurate telemonitoring of Parkinson.s disease progression by non-invasive 
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 14
+speech tests',
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 57
+IEEE Transactions on Biomedical Engineering (to appear). 
+
+
+
+
+
