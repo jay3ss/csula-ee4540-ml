@@ -6,7 +6,7 @@
 import numpy as np
 
 
-def mean_square_error():
+def minimum_mean_square_error():
     pass
 
 
